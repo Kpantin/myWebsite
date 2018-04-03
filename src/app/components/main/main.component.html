@@ -1,3 +1,21 @@
 <div class="mainContainer">
-    <h1>My Main Content</h1>
+    <div class="content">
+        <h1 class="mainHeader">Content Header</h1>
+        <div class="gridContainer">
+            <div class="item1" @fadeGreen>Left Panel</div>
+            <div class="item2" @fade>Center Panel</div>
+            <div class="item3" @fadeOrange>Right Panel</div>
+        </div>
+        <div class="mainParagraph" @fadeBlue>
+            <div class="paraHeader">Main Paragraph Header</div>
+            <div class="p1">    
+                - <b>Main content area:</b> <i>'Apple'</i> icon style rounded borders(17.544%), gradient background-color.<br>
+                - <b>Panels:</b> Box-shadow effects, centered text, adjusted line-heights.<br>
+                - <b>Content:</b> Width of 80%, auto margins to center content.<br>
+                - <b>Animation:</b> Content Panels <i>'Fade-In'</i> with different colors using Angular's <i>'BrowserAnimationsModule'</i>.<br>
+                - <b>Navigation bar:</b> Fixed(Stays on screen when scrolling up or down), polygon shapes, line-height, float right. <br>
+            </div>
+            <div class="paraInfo"><i>* Designed by Kirk Pantin, built with HTML, CSS, JavaScript and AngularJS.</i></div>
+        </div>
+    </div>
 </div>
